@@ -641,6 +641,19 @@
                                             font-size: 14px;
                                             line-height: 17px;
                                             color: #39425d;
+                                            outline: none;
+                                        }
+                                        
+                                        .btn_subcribe {
+                                            cursor: pointer;
+                                            transition: all .3 ease;
+                                        }
+                                        
+                                        .btn_subcribe:hover {
+                                            box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.1);
+                                            border-radius: 0 0 24px 24px;
+                                            cursor: pointer;
+                                            transform: translateY(-6px);
                                         }
                                         
                                         .footer-container button {
