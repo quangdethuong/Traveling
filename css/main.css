@@ -644,18 +644,6 @@
                                             outline: none;
                                         }
                                         
-                                        .btn_subcribe {
-                                            cursor: pointer;
-                                            transition: all .3 ease;
-                                        }
-                                        
-                                        .btn_subcribe:hover {
-                                            box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.1);
-                                            border-radius: 0 0 24px 24px;
-                                            cursor: pointer;
-                                            transform: translateY(-6px);
-                                        }
-                                        
                                         .footer-container button {
                                             background: linear-gradient(180deg, #ff946d 0%, #ff7d68 100%);
                                             border-radius: 10px;
@@ -668,6 +656,13 @@
                                             line-height: 23px;
                                             text-align: center;
                                             color: #ffffff;
+                                            cursor: pointer;
+                                            transition: all .3 ease;
+                                        }
+                                        
+                                        .footer-container button:hover {
+                                            cursor: pointer;
+                                            transform: translateY(-6px);
                                         }
                                         
                                         .footer-container .form {
